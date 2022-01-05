@@ -2,6 +2,19 @@ section {
     display: flex;
 }
 
+.section1 {}
+
+.section2 {
+    margin-left: 200px;
+}
+
+.section3 {
+    height: 600px;
+    margin-top: 300px;
+
+
+}
+
 .half-div {
     height: 50%;
     width: 35%;
@@ -9,7 +22,7 @@ section {
 
 }
 
-img {
+.half-div img {
     height: 70%;
     width: 70%;
 }
@@ -19,6 +32,7 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Kanit', sans-serif;
     font-family: 'Karla', sans-serif;
+    line-height: 0.5;
 
 }
 
@@ -43,9 +57,29 @@ span {
     color: orange;
 }
 
-a {
+#two-slice-div1 img {
+    height: 70%;
+    width: 70%;
+    margin-left: 150px;
+}
+
+.button-type-1 {
     display: block;
     width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.button-type-2 {
+    display: block;
+    width: 300px;
     height: 25px;
     background: #4E9CAF;
     padding: 10px;
@@ -69,6 +103,20 @@ p {
 
 
 
+}
+
+.three-slice-div span {
+    color: black;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+.three-slice-div img {
+    height: 45%;
+    width: 45%;
 }
 
 #three-slice-div1 {
@@ -97,4 +145,19 @@ p {
     padding: 8%;
 
 
+}
+
+#two-slice-div1 {
+    height: 85%;
+    width: 40%;
+    background-image: url('images/shapes/shape-1.png');
+    background-size: 200px 200px;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+
+}
+
+#two-slice-div2 {
+    height: 85%;
+    width: 55%;
 }
