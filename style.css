@@ -1,0 +1,100 @@
+section {
+    display: flex;
+}
+
+.half-div {
+    height: 50%;
+    width: 35%;
+    margin-left: 10%;
+
+}
+
+img {
+    height: 70%;
+    width: 70%;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Karla', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+#first-intro {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+
+}
+
+span {
+    color: orange;
+}
+
+a {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+p {
+    font-size: large;
+}
+
+.three-slice-div {
+    margin-left: 50px;
+    height: 85%;
+    width: 25%;
+    color: gray;
+
+
+
+}
+
+#three-slice-div1 {
+    border-radius: 25px;
+    background: #73AD21;
+    width: 80%;
+    height: 80%;
+    padding: 8%;
+
+}
+
+#three-slice-div2 {
+    border-radius: 25px;
+    background: #f0f794;
+    width: 80%;
+    height: 80%;
+    padding: 8%;
+
+}
+
+#three-slice-div3 {
+    border-radius: 25px;
+    background: #d1df19;
+    width: 80%;
+    height: 80%;
+    padding: 8%;
+
+
+}
