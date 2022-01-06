@@ -4,8 +4,6 @@ section {
     width: 80%;
     margin-top: 100px;
     margin-left: 160px;
-
-
 }
 
 .half-div {
@@ -26,11 +24,8 @@ section {
     font-family: 'Fjalla One', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Kanit', sans-serif;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Playball', cursive;
-    font-family: 'Spline Sans', sans-serif;
     line-height: 0.5;
-    font-weight: bold;
+    font-weight: lighter;
 
 }
 
@@ -45,22 +40,32 @@ section {
 }
 
 .heading-type-3 {
-    font-family: cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 45px;
+    line-height: 15px;
 
+}
+
+.heading-type-4 {
+    font-family: cursive;
+    font-size: 45px;
 }
 
 h3 {
     font-weight: bold;
-    color: rgb(41, 31, 41);
+    color: rgb(78, 74, 78);
+    font-size: 25px;
 }
 
-
 #first-intro {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, rgb(228, 104, 21), rgb(184, 8, 46));
     border-image-slice: 1;
-
-
+    padding-left: 10px;
 }
 
 .orange-color {
@@ -76,7 +81,7 @@ h3 {
 .button-type-1 {
     display: block;
     margin-top: 100px;
-    width: 115px;
+    width: 215px;
     height: 25px;
     background: #ee4343;
     padding: 10px;
@@ -90,6 +95,7 @@ h3 {
 
 .button-type-2 {
     display: block;
+    margin-top: 100px;
     width: 300px;
     height: 25px;
     background: #eb3544;
@@ -104,25 +110,8 @@ h3 {
 
 p {
     font-size: large;
+    color: rgb(110, 92, 110);
 }
-
-/* .three-slice-div {
-    margin-left: 50px;
-    height: 85%;
-    width: 25%;
-    /*color: gray;*/
-
-
-/* 
-} */
-/* .three-slice-div span {
-    color: black;
-    font-family: 'Fjalla One', sans-serif;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Kanit', sans-serif;
-    font-family: 'Karla', sans-serif;
-    font-family: 'Spline Sans', sans-serif;
-} */
 
 #three-slice-div {
     display: flex;
@@ -136,13 +125,32 @@ p {
 
 #three-slice-div1 {
     border-radius: 25px;
-    background: #73AD21;
+    background: #b9c8c9;
     width: 40%;
     height: 300px;
     padding: 20px;
-    transition: 0.8s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
+#three-slice-div2 {
+    border-radius: 25px;
+    background: #fccfb1;
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
+}
+
+#three-slice-div3 {
+    border-radius: 25px;
+    background: #b5f2f7;
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
 
 }
@@ -157,36 +165,11 @@ p {
 #three-slice-div2:hover {
     box-shadow: 0 18px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 25px;
-
-
 }
 
 #three-slice-div3:hover {
     box-shadow: 0 18px 16px 0 rgba(0, 0, 0, 0.2);
     padding: 25px;
-
-
-}
-
-#three-slice-div2 {
-    border-radius: 25px;
-    background: #f0f794;
-    width: 40%;
-    height: 300px;
-    padding: 20px;
-    margin-left: 30px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-
-}
-
-#three-slice-div3 {
-    border-radius: 25px;
-    background: #d1df19;
-    width: 40%;
-    height: 300px;
-    padding: 20px;
-    margin-left: 30px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 
 
 }
@@ -209,29 +192,27 @@ p {
 .two-slice-large-div {
     height: 85%;
     width: 55%;
-    margin-left: 10%;
+
 }
 
-.bg-img-1 {
-    height: 85%;
-    width: 70%;
-    background-image: url('images/shapes/shape-1.png');
+#bg-img-1 {
+    height: 190px;
+    width: 190px;
+    margin-top: 150px;
+    margin-left: 70px;
     z-index: -1;
+    position: absolute;
 
 
 }
 
-
-
-footer {
-
-    width: 100%;
-    background-color: rgb(53, 44, 44);
-    color: white;
-    text-align: center;
-    margin-top: 200px;
-    padding: 30px 0;
-
+#bg-img-2 {
+    height: 240px;
+    width: 240px;
+    margin-top: 190px;
+    margin-left: 320px;
+    z-index: -1;
+    position: absolute;
 
 }
 
@@ -242,7 +223,7 @@ footer {
 }
 
 .card {
-    /* Add shadows to create the "card" effect */
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     height: 30%;
     width: 27%;
@@ -250,12 +231,20 @@ footer {
     transition: 0.3s;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+
+footer {
+
+    width: 100%;
+    background-color: rgb(53, 44, 44);
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 30px 0;
 }
