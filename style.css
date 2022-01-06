@@ -9,8 +9,9 @@ section {
 }
 
 .section3 {
-    height: 600px;
     margin-top: 300px;
+    height: 100%;
+    width: 100%;
 
 
 }
@@ -147,13 +148,33 @@ p {
 
 }
 
-#two-slice-div1 {
+.two-slice-small-div {
     height: 85%;
     width: 40%;
+
+
+}
+
+.two-slice-small-div img {
+    height: 100%;
+    width: 80%;
+    float: right;
+
+
+}
+
+.two-slice-large-div {
+    height: 85%;
+    width: 55%;
+    margin-left: 10%;
+}
+
+.bg-img-1-div {
     background-image: url('images/shapes/shape-1.png');
-    background-size: 200px 200px;
-    background-position-y: 100px;
+    background-size: 300px 300px;
+    background-position-x: -200px;
     background-repeat: no-repeat;
+    float: left;
 
 }
 
